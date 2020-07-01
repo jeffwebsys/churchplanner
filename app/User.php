@@ -46,5 +46,9 @@ class User extends Authenticatable
 			'user' => '/home'
         ][$this->role];
         
-	}
+    }
+    public function announcements(){
+
+        return $this->hasMany(Announcement::class);
+    }
 }

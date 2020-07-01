@@ -16,22 +16,28 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="dashboard-crm.htm">
+                        <a href="/announcements">
                             <span class="pcoded-mtext">Announcements</span>
                         </a>
                     </li>
-                    <li class=" ">
+                    {{-- <li class=" ">
                         <a href="dashboard-analytics.htm">
                             <span class="pcoded-mtext">Events</span>
                             <span class="pcoded-badge label label-info ">NEW</span>
                         </a>
-                    </li>
+                    </li> --}}
                     @endif
 
                     <li class=" ">
-                        <a href="dashboard-analytics.htm">
-                            <span class="pcoded-mtext">Bible Verses</span>
+                        <a href="/devotions">
+                            <span class="pcoded-mtext">Devotions</span>
                             <span class="pcoded-badge label label-info ">NEW</span>
+                        </a>
+                    </li>
+                    <li class=" ">
+                        <a href="/churchannounce">
+                            <span class="pcoded-mtext">Church Announcements</span>
+                            
                         </a>
                     </li>
                 </ul>
