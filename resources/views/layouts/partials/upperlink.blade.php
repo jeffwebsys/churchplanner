@@ -17,7 +17,7 @@
 <!-- Favicon icon -->
 <link rel="icon" href="{{asset('\files\assets\images\favicon.ico')}}" type="image/x-icon">
 <!-- Google font-->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
 <!-- Required Fremwork -->
 <link rel="stylesheet" type="text/css" href="{{ asset('files\bower_components\bootstrap\css\bootstrap.min.css')}}">
 <!-- feather Awesome -->
@@ -26,10 +26,16 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('files\assets\css\style.css')}}">
 <link rel="stylesheet" type="text/css" href="{{ asset('files\assets\css\jquery.mCustomScrollbar.css')}}">
 
+<link rel="stylesheet" type="text/css" href="/files/assets/icon/themify-icons/themify-icons.css">
+<link rel="stylesheet" type="text/css" href="/files/assets/icon/icofont/css/icofont.css">
+<link rel="stylesheet" type="text/css" href="/files/assets/icon/feather/css/feather.css">
+
 <link rel="stylesheet" type="text/css" href="{{ asset('files\bower_components\datatables.net-bs4\css\dataTables.bootstrap4.min.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('files\assets\pages\data-table\css\buttons.dataTables.min.css')}}">
 <link rel="stylesheet" type="text/css" href="{{ asset('files\bower_components\datatables.net-responsive-bs4\css\responsive.bootstrap4.min.css')}}">
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
     @livewireStyles
    

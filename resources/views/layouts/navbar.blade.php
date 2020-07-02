@@ -46,7 +46,7 @@
                                 <div class="media">
                                     <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
                                     <div class="media-body">
-                                        <h5 class="notification-user">John Doe</h5>
+                                    <h5 class="notification-user">{{auth()->user()->name}}</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
                                         <span class="notification-time">30 minutes ago</span>
                                     </div>
@@ -87,7 +87,7 @@
                     <div class="dropdown-primary dropdown">
                         <div class="dropdown-toggle" data-toggle="dropdown">
                             <img src="..\files\assets\images\avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
-                            <span>John Doe</span>
+                        <span>{{auth()->user()->name}}</span>
                             <i class="feather icon-chevron-down"></i>
                         </div>
                         <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">

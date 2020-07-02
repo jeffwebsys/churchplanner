@@ -51,4 +51,8 @@ class User extends Authenticatable
 
         return $this->hasMany(Announcement::class);
     }
+    public function devotions(){
+
+        return $this->hasMany(Devotion::class);
+    }
 }

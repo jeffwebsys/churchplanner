@@ -41,6 +41,7 @@
 <script type="ed0b036b016df071238247dc-text/javascript" src="files/assets/js/script.js"></script>
 
 
+
 @livewireScripts
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
