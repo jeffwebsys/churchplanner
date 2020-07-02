@@ -35,7 +35,7 @@
                         </a>
                     </li>
                     <li class=" ">
-                        <a href="/churchannounce">
+                        <a href="/churchannouncements">
                             <span class="pcoded-mtext">Church Announcements</span>
                             
                         </a>
@@ -52,15 +52,15 @@
         <div class="pcoded-navigatio-lavel">Support</div>
         <ul class="pcoded-item pcoded-left-item">
             <li class="">
-                <a href="http://html.codedthemes.com/Adminty/doc" target="_blank">
+                <a href="https://github.com/jeffwebsys/churchplanner.git" target="_blank">
                     <span class="pcoded-micon"><i class="feather icon-monitor"></i></span>
                     <span class="pcoded-mtext">Documentation</span>
                 </a>
             </li>
             <li class="">
-                <a href="#" target="_blank">
+                <a href="/developers">
                     <span class="pcoded-micon"><i class="feather icon-help-circle"></i></span>
-                    <span class="pcoded-mtext">Submit Issue</span>
+                    <span class="pcoded-mtext">Developers</span>
                 </a>
             </li>
         </ul>

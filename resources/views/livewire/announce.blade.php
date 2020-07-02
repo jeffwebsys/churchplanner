@@ -21,9 +21,9 @@
 </div>
 @endif
 @if($updateMode)
-        @include('livewire.edit')
+        @include('livewire/announce.edit')
     @else
-        @include('livewire.create')
+        @include('livewire/announce.create')
     @endif
 {{-- <button type="button" class="btn btn-grd-primary btn-sm" data-toggle="modal" data-target="#sign-in">Add Announcement</button> --}}
 
@@ -40,7 +40,7 @@
   <div class="latest-update-box">
   <div class="row p-t-20 p-b-30">
   <div class="col-auto text-right update-meta">
-  <p class="text-muted m-b-0 d-inline">{{$ann->date}}</p>
+  <p class="text-muted m-b-0 d-inline">{{$ann->created_at->diffForhumans()}}</p>
   <i class="feather icon-sunrise bg-simple-c-blue update-icon"></i>
   </div>
   <div class="col">

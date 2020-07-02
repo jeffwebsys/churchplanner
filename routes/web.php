@@ -24,6 +24,13 @@ Route::get('/logout', 'Auth\LoginController@logout');
 Route::group(['middleware' => ['auth']], function() {
 
 //routes available to all users
+Route::get('/churchannouncements', 'ChurchAnnouncementController@index');
+Route::view('/developers', 'support');
+// Route::get('/devotions', 'DevotionController@index');
+Route::livewire('/devotions', 'devotion');
+
+
+
 
 
 // admin middlewware
