@@ -1,3 +1,6 @@
+<div id="pcoded" class="pcoded">
+    <div class="pcoded-overlay-box"></div>
+    <div class="pcoded-container navbar-wrapper">
 <nav class="navbar header-navbar pcoded-header">
     <div class="navbar-wrapper">
 
@@ -6,7 +9,7 @@
                 <i class="feather icon-menu"></i>
             </a>
             <a href="index-1.htm">
-                <img class="img-fluid" src="..\files\assets\images\logo.png" alt="Theme-Logo">
+                <img class="img-fluid" src="{{ asset('files\assets\images\logo.png') }}" alt="Theme-Logo">
             </a>
             <a class="mobile-options">
                 <i class="feather icon-more-horizontal"></i>
@@ -44,7 +47,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                    <img class="d-flex align-self-center img-radius" src="{{ asset('files\assets\images\avatar-4.jpg') }}" alt="Generic placeholder image">
                                     <div class="media-body">
                                     <h5 class="notification-user">{{auth()->user()->name}}</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -54,7 +57,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-3.jpg" alt="Generic placeholder image">
+                                    <img class="d-flex align-self-center img-radius" src="{{ asset('files\assets\images\avatar-3.jpg') }}" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <h5 class="notification-user">Joseph William</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -64,7 +67,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="d-flex align-self-center img-radius" src="..\files\assets\images\avatar-4.jpg" alt="Generic placeholder image">
+                                    <img class="d-flex align-self-center img-radius" src="{{ asset('files\assets\images\avatar-4.jpg') }}" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <h5 class="notification-user">Sara Soudein</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -86,33 +89,23 @@
                 <li class="user-profile header-notification">
                     <div class="dropdown-primary dropdown">
                         <div class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="..\files\assets\images\avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                            <img src="{{ asset('files\assets\images\avatar-4.jpg') }}" class="img-radius" alt="User-Profile-Image">
                         <span>{{auth()->user()->name}}</span>
                             <i class="feather icon-chevron-down"></i>
                         </div>
                         <ul class="show-notification profile-notification dropdown-menu" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
                             <li>
-                                <a href="#!">
+                                <a href="/settings">
                                     <i class="feather icon-settings"></i> Settings
                                 </a>
                             </li>
                             <li>
-                                <a href="user-profile.htm">
+                                <a href="/profile">
                                     <i class="feather icon-user"></i> Profile
                                 </a>
                             </li>
-                            <li>
-                                <a href="email-inbox.htm">
-                                    <i class="feather icon-mail"></i> My Messages
-                                </a>
-                            </li>
-                            <li>
-                                <a href="auth-lock-screen.htm">
-                                    <i class="feather icon-lock"></i> Lock Screen
-                                </a>
-                            </li>
-                            <li>
-                                <a href="auth-normal-sign-in.htm">
+                          <li>
+                                <a href="/logout">
                                     <i class="feather icon-log-out"></i> Logout
                                 </a>
                             </li>

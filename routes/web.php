@@ -28,6 +28,10 @@ Route::get('/churchannouncements', 'ChurchAnnouncementController@index');
 Route::view('/developers', 'support');
 // Route::get('/devotions', 'DevotionController@index');
 Route::livewire('/devotions', 'devotion');
+Route::livewire('/profile', 'profile');
+Route::livewire('/settings', 'settings');
+
+
 
 
 
