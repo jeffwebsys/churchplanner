@@ -41,15 +41,15 @@ class Devotion extends Component
 
 
 
-    use WithPagination;
-    public function render()
-    {
+        use WithPagination;
+        public function render()
+        {
         $count = DevotionMessage::where('user_id', auth()->id())
         ->where('created_at', '>=', Carbon::now()->startOfDay())
         ->count();
         return view('livewire.devotion',[
-            'devotions' => DevotionMessage::latest()->paginate(3),
-            'counts' => $count
-            ]);
-    }
+        'devotions' => DevotionMessage::latest()->paginate(3),
+        'counts' => $count
+        ]);
+        }
 }

@@ -19,13 +19,19 @@
 <div class="pcoded-main-container">
 <div class="pcoded-wrapper">
 @include('layouts.mainsidebar')
+
+
 <div class="pcoded-content">
 <div class="pcoded-inner-content">
+
+
 <div class="main-body">
 <div class="page-wrapper">
 
+
 <div class="page-body">
 <div class="row">
+    
 
 @yield('content')
 
@@ -50,8 +56,8 @@
 </div>
 </div>
 
-
-
 @include('layouts.partials/lowerlink')
+
 </body>
 </html>
+

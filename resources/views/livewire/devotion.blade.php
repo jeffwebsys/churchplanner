@@ -21,7 +21,7 @@
                                 
                             <textarea class="f-13 form-control msg-send rounded" rows="3" cols="10" wire:model.debounce.500ms="message" placeholder="Write something....."></textarea>
                             @error('message')
-                            <small class="text-danger">{{ $message }}</small>
+                            <small class="text-primary">{{ $message }}</small>
                             @enderror
                             <div class="text-right m-t-20">
                                 @if($counts >= 3)
@@ -53,7 +53,7 @@
                             
                             
                             </div>
-                            <p class="text-muted">{{$devo->message}}</p>
+                            <p class="text-dark">{{$devo->message}}</p>
                             </div>
                             </div>
                             @endforeach

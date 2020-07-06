@@ -21,14 +21,9 @@
                     </a>
                     <div class="media-body">
                     <div class="col-xs-12">
-                    <div x-data="{ hover: false }">
-                    <h6 class="d-inline-block" x-on:mouseover="hover = true" x-on:mouseout="hover = false">
-                    {{$ann->user->name}}</h6>
-                    <div x-show="hover" class="float-top" style="border: 2px solid black;
-                    padding: 12px;
-                    border-radius: 15px 50px; >
-                    <p style="font-weight: bold; font-size: 16px;"> {{$ann->user->name}}</p>
-                    </div>
+                    <div>
+                    <h6> {{$ann->user->name}}</h6>
+                   
                     </div>
                     <label class="label label-info">{{$ann->user->role}}</label>
                     </div>
